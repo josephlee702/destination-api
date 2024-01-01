@@ -6,5 +6,7 @@ FactoryBot.define do
     image_url {Faker::Placeholdit.image}
     lat {Faker::Address.latitude}
     lon {Faker::Address.longitude}
+    popularity { "very popular" }
+    number_sold { 100 }
   end
 end
